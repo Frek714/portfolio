@@ -1,0 +1,113 @@
+.custom-navbar {
+  /* background-color: transparent; */
+  padding: 0 10px;
+}
+
+.custom-navs-itmes {
+  font-size: 18px;
+}
+
+.hero-image {
+  /* background-image: url("../resources/foglie-bg-sito.jpg"); */
+  background-image: url("https://images.unsplash.com/photo-1654960034489-80e3aedcd152?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  opacity: 0.9;
+  padding: 25%;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: rgb(255, 255, 255);
+}
+
+@media all and (min-width: 992px) {  
+  .title {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .subtitle {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .hero-image {
+    padding-top: 25%;
+  }
+}
+
+@media all and (min-width: 790px) and (max-width: 992px) {
+  .hero-image {
+    padding-top: 40%;
+  }
+
+  .title {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (min-width: 650px) and (max-width: 790px) {
+  .hero-image {
+    padding-top: 50%;
+  }
+
+  .title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (min-width: 550px) and (max-width: 650px) {
+  .hero-image {
+    padding-top: 60%;
+  }
+}
+
+
+@media all and (min-width: 450px) and (max-width: 550px) {
+  .hero-image {
+    padding-top: 75%;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .subtitle {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .hero-image {
+    padding-top: 120%;
+  }
+
+  .title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .subtitle {
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+}
