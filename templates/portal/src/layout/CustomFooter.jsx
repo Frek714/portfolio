@@ -9,7 +9,7 @@ class CustomFooter extends Component {
 
   render() {
     return (
-      <div className="sticky-bottom">
+      <div className="bd-footer">
         <footer className="bg-dark text-center text-white">
           <div className="container p-4">
             <section className="mb-4">

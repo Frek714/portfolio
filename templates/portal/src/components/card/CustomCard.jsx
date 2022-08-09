@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import image from "../../resources/foglie-bg-sito.jpg";
+import image1 from "../../resources/foresta.jpg";
 
 export default class CustomCard extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ export default class CustomCard extends Component {
     return (
       <Fragment>
         <div className="card mb-3">
-          <img src={image} className="card-img-top" style={{width: 'auto', height: 'auto'}} alt="..." />
+          <img src={image1} className="card-img-top" style={{width: '100%', height: 'auto'}} alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">

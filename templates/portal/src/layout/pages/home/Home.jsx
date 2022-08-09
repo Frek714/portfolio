@@ -12,7 +12,7 @@ export default class Home extends Component {
     return (
       <Fragment>
         <div className="container-fluid">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-6">
               <CustomCard />
             </div>
@@ -35,7 +35,7 @@ export default class Home extends Component {
             <div className="col-6">
               <CustomCard />
             </div>
-          </div>
+          </div> */}
         </div>
       </Fragment>
     );
